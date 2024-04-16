@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Fullstack_JS_Course_React_native",
-    "slug": "Fullstack_JS_Course_React_native",
+    "name": "Aora Test App",
+    "scheme": "aora",
+    "slug": "aora_test_app_url_friendly_slug",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
